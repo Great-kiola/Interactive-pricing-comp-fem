@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--GrayishBlue);
+    background-color: var(--LightGrayishBlue);
 }
 
 .container{
@@ -67,6 +67,9 @@ label.active::before{
     background-image: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 } */
 
+.perMnths{
+    font-size: .8rem;
+}
 
 
 
