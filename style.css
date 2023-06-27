@@ -71,6 +71,10 @@ label.active::before{
     font-size: .8rem;
 }
 
+.pageViews{
+    font-size: .9rem;
+    color: var(--GrayishBlue);
+}
 
 
 
