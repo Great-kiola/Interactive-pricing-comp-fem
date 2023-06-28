@@ -30,6 +30,10 @@ body {
     justify-content: space-between;
 }
 
+.billing{
+    margin: 10px auto;
+}
+
 label{
     width: 50px;
     height: 25px;
@@ -63,9 +67,9 @@ label.active::before{
     left: 40px;  
 }
   
-/* label.active{
+label.active{
     background-image: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-} */
+}
 
 .perMnths{
     font-size: .8rem;
@@ -82,6 +86,35 @@ label.active::before{
     justify-content: center;
 }
 
+li{
+    list-style: none;
+    font-size: .8rem;
+    color: var(--GrayishBlue);
+    margin-bottom: 10px;
+}
+
+li::before{
+    content: url(./images/icon-check.svg);
+    margin-right: 10px;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto 0px;
+}
+
+.startTrial button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--DarkDesaturatedBlue);
+    color: var(--LightGrayishBlue);
+    font-size: .8rem;
+    cursor: pointer;
+}
 
 .attribution {
     font-size: 11px;
