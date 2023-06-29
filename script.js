@@ -7,12 +7,10 @@ input.value = 0;
 
 input.addEventListener('input', () => {
     number.textContent = input.value;
-
 });
 
 toggle.addEventListener('click', (e) => {
-    e.preventDefault();
-
+    // e.preventDefault();
     toggle.classList.toggle('active');
 });
 
