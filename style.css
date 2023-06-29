@@ -100,23 +100,13 @@ label.active{
     font-weight: 400;
 }
 
-/* .rangeSlider{
-    width: 100%;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-} */
-
-/* .rangeSlider input[type="range"]{
-    -webkit-appearance: none !important;
-} */
-
 input[type="range"] {
     /* removing default appearance */
     -webkit-appearance: none;
     appearance: none;
 
     /* creating a custom design */
+    margin-top: 20px;
     width: 100%;
     cursor: pointer;
     outline: none;
