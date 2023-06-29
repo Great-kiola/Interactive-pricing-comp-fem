@@ -92,7 +92,7 @@ label.active{
 }
 
 .label p{
-    font-size: .6rem !important;
+    font-size: .5rem !important;
     color: var(--LightRed);
 }
 
@@ -119,6 +119,7 @@ input[type="range"]::-webkit-slider-thumb {
     /* removing default appearance */
     -webkit-appearance: none;
     appearance: none;
+
     /* creating a custom design */
     height: 25px;
     width: 25px;
@@ -137,7 +138,14 @@ input[type="range"]::-webkit-slider-thumb:hover {
     margin: 10px auto;
 }
 
-.billing p{
+.daysBilling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.billing .daysBilling p{
     font-size: .8rem;
 }
 
