@@ -1,11 +1,9 @@
 let toggle = document.querySelector('label');
 
-
-
-
 const input = document.querySelector('input'),
-    number = document.querySelector('.views');
-    input.value = 0;
+number = document.querySelector('.views');
+
+input.value = 0;
 input.addEventListener('input', () => {
     number.textContent = input.value;
 });
