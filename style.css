@@ -79,11 +79,76 @@ label.active{
     color: var(--GrayishBlue);
 }
 
+.prices h1{
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.label{
+    margin-left: 20px;
+    background-color: var(--LightGrayishRed);
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.label p{
+    font-size: .6rem !important;
+    color: var(--LightRed);
+}
+
+.prices h1 span{
+    font-weight: 400;
+}
+
+/* .rangeSlider{
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+} */
+
+/* .rangeSlider input[type="range"]{
+    -webkit-appearance: none !important;
+} */
+
+input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* creating a custom design */
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    /* Styling the track */
+    height: 5px;
+    background: var(--SoftCyan);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height: 25px;
+    width: 25px;
+    background-color: var(--StrongCyan);
+    border-radius: 50%;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: var(--StrongCyan);
+}
+
 .billing{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px auto;
+}
+
+.billing p{
+    font-size: .8rem;
 }
 
 li{
