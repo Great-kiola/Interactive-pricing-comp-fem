@@ -14,7 +14,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--LightGrayishBlue);
+    background-color: var(--VeryPaleBlue);
+    background-image: url(./images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 .container{
