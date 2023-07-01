@@ -180,10 +180,12 @@ li::before{
     color: var(--LightGrayishBlue);
     font-size: .8rem;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .startTrial button:hover{
     color: var(--White);
+    background-color: var(--GrayishBlue);
 }
 
 .attribution {
