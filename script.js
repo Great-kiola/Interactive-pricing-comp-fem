@@ -1,7 +1,10 @@
 let toggle = document.querySelector('label');
+let amount = document.querySelector('.amount');
 
 const input = document.querySelector('input'),
     number = document.querySelector('.views');
+
+let label = document.querySelector('label');
 
 input.value = 0;
 
@@ -14,3 +17,10 @@ toggle.addEventListener('click', (e) => {
     toggle.classList.toggle('active');
 });
 
+label.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    amount.textContent * 2
+});
+
+console.log(amount.textContent);
