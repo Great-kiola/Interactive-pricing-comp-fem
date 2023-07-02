@@ -13,14 +13,14 @@ input.addEventListener('input', () => {
 });
 
 toggle.addEventListener('click', (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     toggle.classList.toggle('active');
 });
 
-label.addEventListener('click', (e) => {
-    e.preventDefault();
+// label.addEventListener('click', (e) => {
+//     e.preventDefault();
 
-    amount.textContent * 2
-});
+//     amount.textContent * 2
+// });
 
-console.log(amount.textContent);
+// console.log(amount.textContent);
