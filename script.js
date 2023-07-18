@@ -1,5 +1,4 @@
 let toggle = document.querySelector('label');
-let amount = document.querySelector('.amount');
 
 const input = document.querySelector('input'),
     number = document.querySelector('.views');
