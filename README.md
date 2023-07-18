@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./images/Screenshot.png" alt="finishedScreenshot">
 
 
 ### Links
