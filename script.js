@@ -6,15 +6,26 @@ const input = document.querySelector('input'),
 
 let label = document.querySelector('label');
 
+let mnthsPrice = document.querySelector('.mnthsPrice');
+
 input.value = 0;
 
 input.addEventListener('input', () => {
     number.textContent = input.value;
+
+    mnthsPrice.textContent = input.value * 2
 });
+
 
 toggle.addEventListener('click', (e) => {
     e.preventDefault();
-    toggle.classList.toggle('active');
+    
+
+    if (toggle.classList.toggle('active')){
+        mnthsPrice.textContent = 20.00;
+    } else {
+        mnthsPrice.textContent = 16.00;
+    }
 });
 
 // label.addEventListener('click', (e) => {
