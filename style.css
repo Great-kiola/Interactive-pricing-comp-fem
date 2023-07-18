@@ -18,13 +18,14 @@ body {
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
 }
 
 .container{
     width: 500px;
     background-color: var(--White);
     padding: 50px;
-    margin: 40px auto;
+    margin: 150px auto;
 }
 
 .prices{
@@ -186,6 +187,18 @@ li::before{
 .startTrial button:hover{
     color: var(--White);
     background-color: var(--GrayishBlue);
+}
+
+.header-circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    margin: -150px;
+}
+
+.header-circles img{
+    width: 200px;
 }
 
 .attribution {
